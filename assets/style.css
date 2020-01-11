@@ -4,10 +4,13 @@
 header, h1{
     font-family: 'Georgia', Times, 'Times New Roman', 'serif';
 }
-
+h3{
+    font-family: 'Georgia', Times, 'Times New Roman', 'serif';
+    color: #4aaaa5;
+}
 p, a{
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    color:#363636;
+    color:#000000;
 }
 
 body{
@@ -22,18 +25,7 @@ body{
     width: 100%;
     margin: 0 auto;
 }
-/*
-header{
-    box-sizing: border-box;
-    width: 100%;
-    background-color: #ffffff;
-    border-bottom-style:inset;
-    border-width: 0.5px;
-    border-color: #dddddd;
-    height: 65px;
-    margin-bottom: 40px;
-}
-*/
+
 #myname{
     font-size: 24px;
     color: #ffffff;
@@ -54,22 +46,22 @@ nav{
     padding: 0;
 }
 
-/*
-.pagetitle{
-    font-size: 24px;
-    color:#4aaaa5;
-    margin-top: 0;
+main{
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    margin-top: 100px;
 }
 
-main{
-    background-color: #252525;
-    width: 910px;
-    border-style:solid;
-    border-width: 0.5px;
-    border-color: #dddddd;
-    padding: 2%;
-    overflow: auto;
-    line-height: 1.7em;
+img{
+    margin: 4%;
+    width: 175px;
+    height: 200px;
+}
+
+.content{
+    margin-left: 1%;
 }
 
 footer p{
@@ -82,19 +74,18 @@ footer p{
     border-top-width: 8px;
     padding-top: 30px;
     border-top-style: solid;
-    position: sticky;
-    margin: 0;
-    margin-top: 100px;
+    margin-top: 20%;
+    margin-bottom: 0;
 }
 
 hr{
-    margin-left: auto;
-    margin-right: auto;
     border-style: solid;
     border-color: #dddddd;
     border-width: 0.5px;
+    width: 95%;
 }
 
+/*
 .submit{
     background-color:#4aaaa5;
     border-style: none;
@@ -122,12 +113,6 @@ hr{
     height: 175px;
     width: 175px;
 }
-
-.wrapper img{
-    width: 175px;
-    height: 175px;
-}
-
 span{
     box-sizing: border-box;
     background-color: #4aaaa5;
