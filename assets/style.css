@@ -57,8 +57,17 @@ main{
 
 img{
     margin: 4%;
-    /* width: 200px; 
-    height: auto;  */
+}
+
+.img200px{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.img220px{
+    width: 220px;
+    height: 220px;
 }
 
 .content{
@@ -86,7 +95,7 @@ hr{
     width: 95%;
 }
 
-/*
+
 .submit{
     background-color:#4aaaa5;
     border-style: none;
@@ -94,36 +103,18 @@ hr{
     color:#ffffff;
 }
 
-#profilePic{
-    max-width: 150px;
-    max-height: 300px;
-    float: left;
-    margin-right: 25px;
-}
-
-.slimcontainer{
-    box-sizing: border-box;
-    width: 600px;
-    margin: 0 auto;
-}
-
-.wrapper{
-    padding: 20px;
-    position: relative;
-    float: left;
-    height: 175px;
-    width: 175px;
-}
-span{
-    box-sizing: border-box;
+.d-block{
     background-color: #4aaaa5;
-    color: #ffffff;
     text-align: center;
     position: absolute;
-    margin: 0 auto;
-    width: 175px;
-    bottom: 30px;
-    left: 20px;
-    z-index: 5;
+    top: 170px;
+    width: 200px;
+}
 
-} */
+#myname{
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 3%;
+    margin: 0;
+}
