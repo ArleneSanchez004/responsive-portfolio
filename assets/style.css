@@ -14,7 +14,7 @@ p, a{
 }
 
 body{
-    background-image: url(../images/spikes.png);
+    /* background-image: url(../images/spikes.png); */
     background-repeat: repeat;
     background-color: #252525;
     margin: 0;
@@ -117,4 +117,5 @@ hr{
     background-color: #4aaaa5;
     padding: 3%;
     margin: 0;
+    width: 100%;
 }
